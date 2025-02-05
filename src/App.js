@@ -17,9 +17,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Login />} />
           <Route path="/register" element={<Register />} />
-          {/* <Route path="/tasks" element={<Tasks />} />
-          <Route path="/task-form" element={<TaskForm />} />
-          <Route path="/task-form/:id" element={<TaskForm />} /> }
 
           {/* Protected Routes */}
           <Route element={<ProtectedRoute />}>
